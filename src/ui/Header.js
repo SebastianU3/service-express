@@ -8,12 +8,14 @@ function Header() {
         <li><a href="#"><img src="#"></img></a></li>
         <li><a href="#"><img src="#"></img></a></li>
         <li>
-          <div class="Account">
-            <ul>
-              <li><img src="#"></img></li>
-              <li><h4>Account</h4></li>
-            </ul>
-          </div>
+          <a href="#">
+            <div class="Account">
+              <ul>
+                <li><img src="#"></img></li>
+                <li><h4>Username</h4></li>
+              </ul>
+            </div>
+          </a>
         </li>
       </ul>
     </nav>
