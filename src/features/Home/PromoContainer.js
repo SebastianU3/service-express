@@ -1,7 +1,13 @@
 import React from "react";
+import PromoItem from './PromoItem.js';
 
-function Promo() {
-  return <div>Promo</div>;
+function PromoContainer() {
+  return (
+  <div class="PromoContainer">
+    <h4>Promos</h4>
+    <PromoItem/>
+    <PromoItem/>
+  </div>);
 }
 
-export default Promo;
+export default PromoContainer;
