@@ -1,12 +1,13 @@
 import React from "react";
-import PromoContainer from "../features/Home/PromoContainer.js";
+import Promo from "../features/Home/Promo.js";
 import HomeServiceContainer from "../features/Home/HomeServicesContainer.js";
 
 function Home() {
   return (
   <>
-    <PromoContainer/>
+    <Promo/>
     <HomeServiceContainer/>
+    
   </>);
 }
 
