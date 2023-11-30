@@ -1,7 +1,8 @@
 
 
-export default function HeaderItem(ClassName="" , ImageUrl="", onClick = "" ){
-    return<div className = {ClassName}>
-        
-    </div>;
+export default function HeaderItem({ClassName="" , ImageUrl="", onClick = "" }){
+    return (
+    <div className = {ClassName}>
+        <a href={ImageUrl} onClick={onClick}> </a>    
+    </div>);
 }
